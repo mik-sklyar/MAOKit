@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2671B836177E574E009E369B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B82E177E574E009E369B /* Default-568h@2x.png */; };
+		2671B837177E574E009E369B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B82F177E574E009E369B /* Default.png */; };
+		2671B838177E574E009E369B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B830177E574E009E369B /* Default@2x.png */; };
+		2671B839177E574E009E369B /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B831177E574E009E369B /* icon_114.png */; };
+		2671B83A177E574E009E369B /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B832177E574E009E369B /* icon_144.png */; };
+		2671B83B177E574E009E369B /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B833177E574E009E369B /* icon_57.png */; };
+		2671B83C177E574E009E369B /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2671B834177E574E009E369B /* icon_72.png */; };
+		2671B83E177E57FB009E369B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2671B83D177E57FB009E369B /* ViewController.xib */; };
+		2671B884177E8D89009E369B /* MAOInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671B86E177E8D89009E369B /* MAOInputAccessoryView.m */; };
+		2671B885177E8D89009E369B /* MAOKeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671B870177E8D89009E369B /* MAOKeyboardHelper.m */; };
+		2671B88B177E8D89009E369B /* UIView+maoAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671B87D177E8D89009E369B /* UIView+maoAnimation.m */; };
+		2671B88C177E8D89009E369B /* UIView+maoDimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2671B87F177E8D89009E369B /* UIView+maoDimensions.m */; };
+		BD767989165DF196009AAB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD767988165DF196009AAB96 /* UIKit.framework */; };
+		BD76798B165DF196009AAB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD76798A165DF196009AAB96 /* Foundation.framework */; };
+		BD76798D165DF196009AAB96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD76798C165DF196009AAB96 /* CoreGraphics.framework */; };
+		BD7679D4165DF298009AAB96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7679CF165DF298009AAB96 /* AppDelegate.m */; };
+		BD7679D5165DF298009AAB96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7679D1165DF298009AAB96 /* main.m */; };
+		BD7679D6165DF298009AAB96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7679D3165DF298009AAB96 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2671B82E177E574E009E369B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2671B82F177E574E009E369B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2671B830177E574E009E369B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2671B831177E574E009E369B /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		2671B832177E574E009E369B /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
+		2671B833177E574E009E369B /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		2671B834177E574E009E369B /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72.png; sourceTree = "<group>"; };
+		2671B83D177E57FB009E369B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2671B86D177E8D89009E369B /* MAOInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOInputAccessoryView.h; sourceTree = "<group>"; };
+		2671B86E177E8D89009E369B /* MAOInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAOInputAccessoryView.m; sourceTree = "<group>"; };
+		2671B86F177E8D89009E369B /* MAOKeyboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAOKeyboardHelper.h; sourceTree = "<group>"; };
+		2671B870177E8D89009E369B /* MAOKeyboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAOKeyboardHelper.m; sourceTree = "<group>"; };
+		2671B87C177E8D89009E369B /* UIView+maoAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+maoAnimation.h"; sourceTree = "<group>"; };
+		2671B87D177E8D89009E369B /* UIView+maoAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+maoAnimation.m"; sourceTree = "<group>"; };
+		2671B87E177E8D89009E369B /* UIView+maoDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+maoDimensions.h"; sourceTree = "<group>"; };
+		2671B87F177E8D89009E369B /* UIView+maoDimensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+maoDimensions.m"; sourceTree = "<group>"; };
+		BD767984165DF196009AAB96 /* MAOExample_Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAOExample_Keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD767988165DF196009AAB96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD76798A165DF196009AAB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD76798C165DF196009AAB96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD7679CE165DF298009AAB96 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD7679CF165DF298009AAB96 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD7679D0165DF298009AAB96 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pch.h; sourceTree = "<group>"; };
+		BD7679D1165DF298009AAB96 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD7679D2165DF298009AAB96 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD7679D3165DF298009AAB96 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD7679D8165DF2F1009AAB96 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD767981165DF196009AAB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD767989165DF196009AAB96 /* UIKit.framework in Frameworks */,
+				BD76798B165DF196009AAB96 /* Foundation.framework in Frameworks */,
+				BD76798D165DF196009AAB96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2671B82C177E55E4009E369B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD7679D0165DF298009AAB96 /* pch.h */,
+				BD7679D1165DF298009AAB96 /* main.m */,
+				BD7679CE165DF298009AAB96 /* AppDelegate.h */,
+				BD7679CF165DF298009AAB96 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		2671B82D177E574E009E369B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2671B82E177E574E009E369B /* Default-568h@2x.png */,
+				2671B82F177E574E009E369B /* Default.png */,
+				2671B830177E574E009E369B /* Default@2x.png */,
+				2671B831177E574E009E369B /* icon_114.png */,
+				2671B832177E574E009E369B /* icon_144.png */,
+				2671B833177E574E009E369B /* icon_57.png */,
+				2671B834177E574E009E369B /* icon_72.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2671B835177E574E009E369B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				2671B83D177E57FB009E369B /* ViewController.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		2671B83F177E5919009E369B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				2671B867177E8D89009E369B /* MAOKit */,
+			);
+			name = External;
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		2671B867177E8D89009E369B /* MAOKit */ = {
+			isa = PBXGroup;
+			children = (
+				2671B87C177E8D89009E369B /* UIView+maoAnimation.h */,
+				2671B87D177E8D89009E369B /* UIView+maoAnimation.m */,
+				2671B87E177E8D89009E369B /* UIView+maoDimensions.h */,
+				2671B87F177E8D89009E369B /* UIView+maoDimensions.m */,
+				2671B86F177E8D89009E369B /* MAOKeyboardHelper.h */,
+				2671B870177E8D89009E369B /* MAOKeyboardHelper.m */,
+				2671B86D177E8D89009E369B /* MAOInputAccessoryView.h */,
+				2671B86E177E8D89009E369B /* MAOInputAccessoryView.m */,
+			);
+			name = MAOKit;
+			path = ../../MAOKit;
+			sourceTree = "<group>";
+		};
+		BD767979165DF196009AAB96 = {
+			isa = PBXGroup;
+			children = (
+				BD767985165DF196009AAB96 /* Products */,
+				BD767987165DF196009AAB96 /* Frameworks */,
+				2671B83F177E5919009E369B /* External */,
+				BD7679CD165DF298009AAB96 /* Internal */,
+				BD7679D7165DF2F1009AAB96 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BD767985165DF196009AAB96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD767984165DF196009AAB96 /* MAOExample_Keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD767987165DF196009AAB96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD767988165DF196009AAB96 /* UIKit.framework */,
+				BD76798A165DF196009AAB96 /* Foundation.framework */,
+				BD76798C165DF196009AAB96 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD7679CD165DF298009AAB96 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				2671B82C177E55E4009E369B /* App */,
+				BD7679D2165DF298009AAB96 /* ViewController.h */,
+				BD7679D3165DF298009AAB96 /* ViewController.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		BD7679D7165DF2F1009AAB96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2671B82D177E574E009E369B /* Images */,
+				2671B835177E574E009E369B /* Xibs */,
+				BD7679D8165DF2F1009AAB96 /* info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD767983165DF196009AAB96 /* MAOExample_Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7679C0165DF197009AAB96 /* Build configuration list for PBXNativeTarget "MAOExample_Keyboard" */;
+			buildPhases = (
+				BD767980165DF196009AAB96 /* Sources */,
+				BD767981165DF196009AAB96 /* Frameworks */,
+				BD767982165DF196009AAB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAOExample_Keyboard;
+			productName = Application;
+			productReference = BD767984165DF196009AAB96 /* MAOExample_Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD76797B165DF196009AAB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ivan Masalov";
+			};
+			buildConfigurationList = BD76797E165DF196009AAB96 /* Build configuration list for PBXProject "MAOExample_Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD767979165DF196009AAB96;
+			productRefGroup = BD767985165DF196009AAB96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD767983165DF196009AAB96 /* MAOExample_Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD767982165DF196009AAB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2671B836177E574E009E369B /* Default-568h@2x.png in Resources */,
+				2671B837177E574E009E369B /* Default.png in Resources */,
+				2671B838177E574E009E369B /* Default@2x.png in Resources */,
+				2671B839177E574E009E369B /* icon_114.png in Resources */,
+				2671B83A177E574E009E369B /* icon_144.png in Resources */,
+				2671B83B177E574E009E369B /* icon_57.png in Resources */,
+				2671B83C177E574E009E369B /* icon_72.png in Resources */,
+				2671B83E177E57FB009E369B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD767980165DF196009AAB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7679D4165DF298009AAB96 /* AppDelegate.m in Sources */,
+				BD7679D5165DF298009AAB96 /* main.m in Sources */,
+				BD7679D6165DF298009AAB96 /* ViewController.m in Sources */,
+				2671B884177E8D89009E369B /* MAOInputAccessoryView.m in Sources */,
+				2671B885177E8D89009E369B /* MAOKeyboardHelper.m in Sources */,
+				2671B88B177E8D89009E369B /* UIView+maoAnimation.m in Sources */,
+				2671B88C177E8D89009E369B /* UIView+maoDimensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD7679BE165DF197009AAB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD7679BF165DF197009AAB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD7679C1165DF197009AAB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Internal/pch.h;
+				HEADER_SEARCH_PATHS = "\"${BUILT_PRODUCTS_DIR}/include\"";
+				INFOPLIST_FILE = Resources/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = MAOExample_Keyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD7679C2165DF197009AAB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Internal/pch.h;
+				HEADER_SEARCH_PATHS = "\"${BUILT_PRODUCTS_DIR}/include\"";
+				INFOPLIST_FILE = Resources/info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = MAOExample_Keyboard;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD76797E165DF196009AAB96 /* Build configuration list for PBXProject "MAOExample_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7679BE165DF197009AAB96 /* Debug */,
+				BD7679BF165DF197009AAB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7679C0165DF197009AAB96 /* Build configuration list for PBXNativeTarget "MAOExample_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7679C1165DF197009AAB96 /* Debug */,
+				BD7679C2165DF197009AAB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD76797B165DF196009AAB96 /* Project object */;
+}
