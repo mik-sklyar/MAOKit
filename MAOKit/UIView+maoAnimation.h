@@ -1,6 +1,6 @@
 //  UIView+maoAnimation.h
 //
-//  Copyright (c) 2011-2013 mik
+//  Copyright (c) 2011-2013 mik ( https://github.com/mik69/MAOKit )
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
