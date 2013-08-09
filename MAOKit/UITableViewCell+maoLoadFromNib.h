@@ -1,4 +1,4 @@
-//  UIViewController+maoPopover.h
+//  UITableViewCell+maoLoadFromNib.h
 //
 //  Copyright (c) 2011-2013 mik ( https://github.com/mik69/MAOKit )
 //
@@ -24,25 +24,12 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+@interface UITableViewCell (maoLoadFromNib)
 
-@interface UIViewController (maoPopover)
++ (UITableViewCell *)loadFromNibNamed:(NSString *)nibName;
 
-@property (nonatomic, strong, readonly) UIPopoverController *maoPopoverController;
-@property (nonatomic, assign) BOOL popoverNeedsNavigationBar;
-
-- (void)dismissPopoverAnimated:(BOOL)animated;
-
-- (void)presentPopoverFromBarButtonItem:(UIBarButtonItem *)item
-               permittedArrowDirections:(UIPopoverArrowDirection)arrowDirections
-                               animated:(BOOL)animated;
-
-- (void)presentPopoverFromRect:(CGRect)rect
-                        inView:(UIView *)view
-      permittedArrowDirections:(UIPopoverArrowDirection)arrowDirections
-                      animated:(BOOL)animated;
-
-//needs for descendants to do some makeup
-- (void)prepareSelfForPopoverBeforePresenting;
-
++ (UITableViewCell *)reusableCellFromNibNamed:(NSString *)nibName
+                                    tableView:(UITableView *)tableView;
 @end
+
+#define ReusableCellForTableView(__tableview__, __cell_class__, __nib_name__) (__cell_class__ *)[__cell_class__ reusableCellFromNibNamed:__nib_name__ tableView:__tableview__]

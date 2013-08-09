@@ -8,7 +8,7 @@
 {
     _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
 
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
 
     [self.window makeKeyAndVisible];
     return YES;

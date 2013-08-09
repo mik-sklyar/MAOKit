@@ -37,6 +37,10 @@
     [[self.textFields objectAtIndex:index] setEnabled:sender.on];
 }
 
+- (IBAction)buttonDidTouch
+{
+    [self.navigationController pushViewController:[[ViewController alloc] init] animated:YES];
+}
 
 const int dateIndex = 2;
 
